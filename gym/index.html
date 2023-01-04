@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            color: wheat;
+            margin: 0px;
+            padding: 0px;
+            background-image: url(images/abs.jpg);
+            max-width: 100%;
+        }
+
+        .right {
+            display: inline-block;
+            /* border: 2px solid green; */
+            position: absolute;
+            top: 30px;
+            right: 10px;
+
+        }
+
+        .mid {
+            /* border: 2px solid green; */
+            display: Block;
+            margin: 30px auto;
+            width: 45%;
+        }
+
+        .left {
+            display: inline-block;
+            /* border: 2px solid green; */
+            position: absolute;
+            top: 30px;
+            left: 40px;
+        }
+
+        .left img {
+            align-content: center;
+            margin: auto;
+            width: 100px;
+        }
+
+        .left div {
+            text-align: center;
+            font-size: 20px;
+            line-height: 35px;
+        }
+
+        .navbar {
+            display: inline-block;
+        }
+
+        .navbar li {
+            display: inline-block;
+            font-size: 20px;
+        }
+
+        .navbar li a {
+            color: white;
+            text-decoration: none;
+            padding: 14px 13px;
+        }
+
+        .navbar li a:hover,
+        .navbar li a.active {
+            color: grey;
+        }
+
+        .btn {
+            border: 2px solid black;
+            border-radius: 10px;
+            background-color: black;
+            margin: 0px 10px;
+            padding: 4px 12px;
+            cursor: pointer;
+            font-size: 15px;
+            color: white;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        .btn:hover {
+            background-color: #1f1f15;
+        }
+
+        .container {
+
+            width: 30%;
+            margin: 200px 80px;
+            border: 2px solid white;
+            border-radius: 30px;
+            padding: 75px;
+
+        }
+
+        .f1 input {
+            font-family: 'Poppins', sans-serif;
+            text-align: center;
+            display: block;
+            padding: 5px;
+            margin: 10px auto;
+            border-radius: 10px;
+            border: 2px solid black;
+            font-size: 20px;
+        }
+
+        .container button {
+            display: block;
+            width: 50%;
+            margin: 18px auto;
+        }
+
+        .container h1 {
+            text-align: center;
+            font-size: 35px;
+        }
+    </style>
+    <title>Vatsa fitness</title>
+</head>
+
+<body>
+    <header>
+        <div class="left">
+            <img src="images/logo.jpg" alt="#">
+            <div>Vatsa fitness</div>
+        </div>
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Fitness Calculator</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </div>
+        <div class="right">
+            <button class="btn">Call us</button>
+            <button class="btn">Email </button>
+        </div>
+    </header>
+    <div class="container">
+        <h1>World's best JIM</h1>
+        <form action="noaction.php">
+            <div class="f1">
+                <input type="text" placeholder="enter your name">
+            </div>
+            <div class="f1">
+                <input type="text" placeholder="enter your age">
+            </div>
+            <div class="f1">
+                <input type="text" placeholder="enter your gender">
+            </div>
+            <div class="f1">
+                <input type="text" placeholder="enter your locality">
+            </div>
+            <button class="btn">Submit</button>
+
+        </form>
+    </div>
+
+</body>
+
+</html>
